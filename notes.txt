@@ -1,3 +1,7 @@
 what type of function is invoke with the new keyword? What does the function return? 
 
 Constructor functions that returns the create object 
+
+How can you suspend the execution of the .then stateent? 
+
+By returning a new promise in the then statement. Theresulting then won't activate until the promise settles 
