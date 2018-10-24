@@ -1,0 +1,3 @@
+what type of function is invoke with the new keyword? What does the function return? 
+
+Constructor functions that returns the create object 
