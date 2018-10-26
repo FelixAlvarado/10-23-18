@@ -5,3 +5,7 @@ Constructor functions that returns the create object
 How can you suspend the execution of the .then stateent? 
 
 By returning a new promise in the then statement. Theresulting then won't activate until the promise settles 
+
+what does data before action mean? 
+
+come up with data types first before going about solving a problem (OOP)
