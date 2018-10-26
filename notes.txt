@@ -9,3 +9,7 @@ By returning a new promise in the then statement. Theresulting then won't activa
 what does data before action mean? 
 
 come up with data types first before going about solving a problem (OOP)
+
+How does an AVL tree keep itseslf balanced? 
+
+By making sure that the heights of lef tand irght children differ by at most 1
