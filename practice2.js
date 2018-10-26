@@ -30,3 +30,19 @@ var reconstructQueue = function(people) {
     }
     return result; 
 };
+
+
+//did better solutions
+var reconstructQueue = function(people) {
+    var ret = []
+    console.log(people);
+ people.sort((a,b) => {
+     if(b[0] != a[0]) return (b[0]-a[0])
+     else return a[1]-b[1]
+ })
+ console.log(people);
+ for(var obj of people){
+     ret.splice(obj[1], 0, obj)
+ }
+ return ret
+};
