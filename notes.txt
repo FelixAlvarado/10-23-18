@@ -25,3 +25,5 @@ HOw does the rest/spread operator work in JS?
 the rest operator gathers all remaining parameters into an array. must be at end. 
 
 spread operator seperates array into a list. can be used on strings too.
+
+worked on adyen project
