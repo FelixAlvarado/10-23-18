@@ -17,15 +17,19 @@
   
 # end
 
+# def save_the_prisoner(n, m, id)
+#     # last prisoner id that candy is given to (goes beyond number of prisoners)
+#     last_id = m - 1 + id 
+#     # singles out last ids that are larger than the number of prisoners that would result in an answer of n
+#     other_last = last_id % n + n 
+#     # returns smallest number that would provide answer for previous two circumstances
+#     last_id = [last_id, other_last].min
+#     #solves problems where last_id is greater than n but the answer is not n
+#     ((last_id - 1) % n) + 1
+# end
+
 def save_the_prisoner(n, m, id)
-    # last prisoner id that candy is given too (goes beyond number of prisoners)
-    last_id = m - 1 + id 
-    # singles out last ids that are larger than the number of prisoners that would result in an answer of n
-    other_last = last_id % n + n 
-    # returns smallest number that would provide answer for previous two circumstances
-    last_id = [last_id, other_last].min
-    #solves problems where last_id is greater than n but the answer is not n
-    ((last_id - 1) % n) + 1
+    ((id  - 1 + m - 1) % n) + 1
 end
 
 puts "-------Save The Prisoners-------"
