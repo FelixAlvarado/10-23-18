@@ -1,16 +1,16 @@
-what type of function is invoke with the new keyword? What does the function return? 
+what type of function is invoke with the new keyword? What does the function return?
 
-Constructor functions that returns the create object 
+Constructor functions that returns the create object
 
-How can you suspend the execution of the .then stateent? 
+How can you suspend the execution of the .then stateent?
 
-By returning a new promise in the then statement. Theresulting then won't activate until the promise settles 
+By returning a new promise in the then statement. Theresulting then won't activate until the promise settles
 
-what does data before action mean? 
+what does data before action mean?
 
 come up with data types first before going about solving a problem (OOP)
 
-How does an AVL tree keep itseslf balanced? 
+How does an AVL tree keep itseslf balanced?
 
 By making sure that the heights of lef tand irght children differ by at most 1
 
@@ -20,10 +20,12 @@ working on adyen project
 
 worked on adyen project
 
-HOw does the rest/spread operator work in JS? 
+HOw does the rest/spread operator work in JS?
 
-the rest operator gathers all remaining parameters into an array. must be at end. 
+the rest operator gathers all remaining parameters into an array. must be at end.
 
 spread operator seperates array into a list. can be used on strings too.
 
 worked on orian python assignment
+
+working on segment assignment
