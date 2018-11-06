@@ -29,3 +29,5 @@ spread operator seperates array into a list. can be used on strings too.
 worked on orian python assignment
 
 working on segment assignment
+
+finished segment merchant questions. moving onto sql portion
