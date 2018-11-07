@@ -33,3 +33,5 @@ working on segment assignment
 finished segment merchant questions. moving onto sql portion
 
 connected with aws postgres
+
+finished segment assignment
